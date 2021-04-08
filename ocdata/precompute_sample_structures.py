@@ -167,7 +167,7 @@ def precompute_enumerate_surface(bulk_database, bulk_index, opfile):
     with open(opfile, 'wb') as g:
         pickle.dump(surfaces_info, g)
 
-s = time.time()
-precompute_enumerate_surface(BULK_PKL, int(sys.argv[1]), sys.argv[2])
-e = time.time()
-print(sys.argv[1], "Done in", e - s )
+#s = time.time()
+#precompute_enumerate_surface(BULK_PKL, int(sys.argv[1]), sys.argv[2])
+#e = time.time()
+#print(sys.argv[1], "Done in", e - s )
